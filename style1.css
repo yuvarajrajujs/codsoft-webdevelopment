@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.task-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.task-header h1 {
+    font-size: 28px;
+    color: #1e3a8a;
+}
+
+.task-header span {
+    background: #1e3a8a;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+.task-header h2 {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.task-header p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: auto;
+}
+
+.task-header a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1e40af;
+    text-decoration: underline;
+}
+
+.calculator {
+    width: 300px;
+    margin: 40px auto;
+    background: #2196f3;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.display {
+    background: #e3f2fd;
+    height: 60px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    text-align: right;
+    padding: 10px;
+    color: #000;
+    overflow: hidden;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #1565c0;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buttons button:hover {
+    background: #0d47a1;
+}
+
+.operator {
+    background: #0d47a1;
+}
+
+.equal {
+    background: #ff9800;
+    grid-column: span 2;
+}
+
+.clear {
+    background: #f44336;
+    grid-column: span 2;
+}
